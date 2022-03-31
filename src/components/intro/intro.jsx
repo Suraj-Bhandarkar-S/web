@@ -20,8 +20,6 @@ export default function intro() {
       <div className="wrapper">
           <h2>Hello There, I'm</h2>
           <h1><span ref={textRef}></span></h1>
-          <h3>
-          </h3>
         </div>
         <a href="#portfolio">
           <img src="assets/down.png" alt="" />

@@ -32,8 +32,7 @@
           height: 80%;
           width: 100%;
           @include mobile{
-            height: 
-                50%;
+            height: 50%;
             width: 70%;
           }
         }
@@ -55,10 +54,11 @@
 
         width: 90%;
         height: 100%;
-        padding-left: 50px;
+        padding-left: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+
        p{
         margin: 10px 0;
         @include mobile{
@@ -127,7 +127,7 @@
         h3 {
           font-size: 30px;
           @include mobile{
-            font-size: 25px;
+            font-size: 20px;
          
             overflow: hidden;
           }
