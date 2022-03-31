@@ -19,8 +19,7 @@ export default function Portfolio() {
           </div>
           <h3>Work
          <hr></hr></h3>
-         
-         <p>I’m currently working full-time as a Systems Engineer at <b>Tata Consultancy Services</b> under Finance Domain.</p><br></br>
+         <p>I’m currently working full-time as a Systems Engineer at <b>Tata Consultancy Services</b> under Finance Domain.</p>
          <ul>
            <li> Developing and Testing Web Based Application in an <b>Agile</b> Environment.</li>
            <li> Maintaining Code Base and Developing Components.</li>

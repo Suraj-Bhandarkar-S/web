@@ -60,11 +60,12 @@
         justify-content: center;
 
        p{
-        margin: 10px 0;
+        margin: 10px;
         @include mobile{
           font-size:10px;
           align-items:flex-start;
           justify-content: center;
+          margin: 5px;
          
         }
         b{
@@ -73,9 +74,9 @@
         }
        }
        ul{
-       
+        padding: 3px;
            li{
-               padding: 5px;
+               padding: 3px;
                @include mobile{
                 font-size: 10px;
                 overflow: hidden;
