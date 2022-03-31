@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/suraj-bhandarkar-s.github.io/web/static/css/main.dd408f01.css",
+    "main.js": "/suraj-bhandarkar-s.github.io/web/static/js/main.69c0499e.js",
+    "index.html": "/suraj-bhandarkar-s.github.io/web/index.html",
+    "main.dd408f01.css.map": "/suraj-bhandarkar-s.github.io/web/static/css/main.dd408f01.css.map",
+    "main.69c0499e.js.map": "/suraj-bhandarkar-s.github.io/web/static/js/main.69c0499e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd408f01.css",
+    "static/js/main.69c0499e.js"
+  ]
+}
