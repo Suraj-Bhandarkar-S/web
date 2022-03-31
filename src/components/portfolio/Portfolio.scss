@@ -26,6 +26,7 @@
         justify-content: center;
         @include mobile{
           align-items: flex-start;
+          top: 10px;
         }
   
         img {
