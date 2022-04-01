@@ -3,6 +3,7 @@ import Intro  from "./components/intro/intro";
 import Portfolio  from "./components/portfolio/Portfolio";
 import Skills from "./components/skills/skills";
 import Projects from "./components/projects/projects";
+import Ip from "./components/IP/ip";
 import Menu from "./components/menu/Menu";
 import "./App.scss"
 import { useState } from "react";
@@ -17,6 +18,7 @@ function App() {
        <Portfolio/>
        <Skills/>
        <Projects/>
+        <Ip />
      </div>
     </div>
   );
