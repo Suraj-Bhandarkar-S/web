@@ -75,7 +75,7 @@ export default function skills() {
         ))}
       </div>
       <p> Icons by<a href="https://www.flaticon.com/free-icons" > <b>Freepik - Flaticon</b></a> </p>
-      <img src="assets/Skills.png" alt="" />
+      <img src={process.env.PUBLIC_URL + '/assets/Skills.png'} alt="" />
     </div>
  
   );

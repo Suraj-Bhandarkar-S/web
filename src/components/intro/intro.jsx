@@ -22,12 +22,12 @@ export default function intro() {
           <h1><span ref={textRef}></span></h1>
         </div>
         <a href="#portfolio">
-          <img src="assets/down.png" alt="" />
+          <img src={process.env.PUBLIC_URL + '/assets/down.png'} alt="" />
         </a>
       </div>
       <div className="right">
         <div className="imgContainer">
-          <img src="assets/intro.png" alt="" />
+          <img src={process.env.PUBLIC_URL + '/assets/intro.png'} alt="" />
         </div>
       </div>
     </div>

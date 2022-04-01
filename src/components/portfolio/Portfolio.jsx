@@ -5,7 +5,7 @@ export default function Portfolio() {
     <div id="portfolio" className="Portfolio">
        <div className="left">
         <div className="imgContainer">
-          <img src="assets/about.png" alt="" />
+          <img src={process.env.PUBLIC_URL + '/assets/about.png'} alt="" />
         </div>
       </div>
       <div className="right">
@@ -30,7 +30,7 @@ export default function Portfolio() {
          <hr></hr>
         </div>
         <a href="#skills">
-          <img src="assets/down.png" alt="" />
+          <img src={process.env.PUBLIC_URL + '/assets/down.png'} alt="" />
         </a>
       </div>
      

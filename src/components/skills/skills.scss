@@ -7,6 +7,7 @@
 
     @include mobile{
       font-size: 20px;
+      overflow: hidden;
     }
   }
   img{
@@ -41,6 +42,7 @@
     h1 {
       font-size: 50px;
       margin: 10px;
+      
     }
   
     ul {
@@ -50,8 +52,10 @@
       display: flex;
       @include mobile{
         margin: 10px 0;
+        font-size: 5px;
         flex-wrap: wrap;
         justify-content: center;
+        overflow: hidden;
       }
 
     }
