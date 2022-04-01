@@ -18,7 +18,7 @@ export default function projects() {
       {
         id: "2",
         icon: "https://play.google.com/store/apps/details?id=com.Jarus.com.ACarGame",
-        title: "A Car Game",
+        title: "A Car Game - Unity3D Game Engine",
         desc:
           "A 2D Video Game Made for Smart Phones using Unity3D Game Engine. Available on Google Play Store.",
         button:"Download Now",
@@ -27,12 +27,13 @@ export default function projects() {
       },
       {
         id: "3",
-        icon: "./assets/writing.png",
+        icon: "https://github.com/Suraj-Bhandarkar-S/web",
         title: "Branding",
         desc:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "My Personal Portfolio WebSite Made using React JS and Scss",
+          button:"WebSite Code @ GithUB",
         img:
-          "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+          "./assets/intro.png",
       },
     ];
   
