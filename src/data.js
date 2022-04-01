@@ -3,7 +3,7 @@ export const ProgrammingLanguage = [
       id: 1,
       title: "Java",
       img:
-      "assets/Java.png",
+      "assets/java.png",
     },
     {
       id: 2,
