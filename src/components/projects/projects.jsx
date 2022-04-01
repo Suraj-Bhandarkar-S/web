@@ -28,7 +28,7 @@ export default function projects() {
       {
         id: "3",
         icon: "https://github.com/Suraj-Bhandarkar-S/web",
-        title: "Branding",
+        title: "The Website that your Scrolling :)",
         desc:
           "My Personal Portfolio WebSite Made using React JS and Scss",
           button:"WebSite Code @ GithUB",
