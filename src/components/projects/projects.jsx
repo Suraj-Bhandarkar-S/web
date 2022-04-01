@@ -7,7 +7,7 @@ export default function projects() {
     const data = [
       {
         id: "1",
-        icon: "./assets/mobile.png",
+        icon: "https://github.com/Suraj-Bhandarkar-S/Django-Grievance-Redressal-System",
         title: "Django - Grievance Redressal System Full Stack Project ",
         desc:
           "An application to Log, monitor, track and resolve the Grievances in few button clicks.",
@@ -17,13 +17,13 @@ export default function projects() {
       },
       {
         id: "2",
-        icon: "./assets/CarGame.png",
+        icon: "https://play.google.com/store/apps/details?id=com.Jarus.com.ACarGame",
         title: "A Car Game",
         desc:
-          "A 2D Video Game Made for Smart Phones using Unity3D Game Engine",
+          "A 2D Video Game Made for Smart Phones using Unity3D Game Engine. Available on Google Play Store.",
         button:"Download Now",
         img:
-          "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+          "./assets/CarGame.png",
       },
       {
         id: "3",
@@ -52,7 +52,7 @@ export default function projects() {
                 <div className="leftContainer">
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <a href="https://github.com/Suraj-Bhandarkar-S/Django-Grievance-Redressal-System" class="button">{d.button}</a>
+                  <a href={d.icon} class="button">{d.button}</a>
                 </div>
               </div>
               <div className="right">
