@@ -8,7 +8,7 @@ export default function projects() {
       {
         id: "1",
         icon: "https://github.com/Suraj-Bhandarkar-S/Django-Grievance-Redressal-System",
-        title: "Django - Grievance Redressal System Full Stack Project ",
+        title: "Django - Grievance Redressal Full Stack Project ",
         desc:
           "An application to Log, monitor, track and resolve the Grievances in few button clicks.",
         button:"More Info @ GitHub",
@@ -31,7 +31,7 @@ export default function projects() {
         title: "The Website that your Scrolling :)",
         desc:
           "My Personal Portfolio WebSite Made using React JS and Scss",
-          button:"WebSite Code @ GithUB",
+          button:"Code @ GitHub",
         img:
           "./assets/intro.png",
       },
