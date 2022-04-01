@@ -13,14 +13,15 @@ export default function projects() {
           "An application to Log, monitor, track and resolve the Grievances in few button clicks.",
         button:"More Info @ GitHub",
         img:
-          "./assets/GRS.png",
+          "./assets/GRS-BG.png",
       },
       {
         id: "2",
-        icon: "./assets/globe.png",
-        title: "Mobile Application",
+        icon: "./assets/CarGame.png",
+        title: "A Car Game",
         desc:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "A 2D Video Game Made for Smart Phones using Unity3D Game Engine",
+        button:"Download Now",
         img:
           "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
       },
@@ -49,12 +50,9 @@ export default function projects() {
             <div className="item">
               <div className="left">
                 <div className="leftContainer">
-                  <div className="imgContainer">
-                    <img src={d.icon} alt="" />
-                  </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  
+                  <a href="https://github.com/Suraj-Bhandarkar-S/Django-Grievance-Redressal-System" class="button">{d.button}</a>
                 </div>
               </div>
               <div className="right">
